@@ -6,8 +6,9 @@ import professional from "../assets/images/professional.svg";
 function Custom() {
   return (
     <>
-      <section className="flex flex-col items-center justify-center text-center bg-black text-white">
-        <h2 className="text-3xl leading-9 tracking-tighter py-10 w-64"> Customize however you want </h2>
+      <section className="flex flex-col items-center justify-center text-center bg-black text-white md:py-10">
+        <h2 className="text-3xl leading-9 tracking-tighter py-10 w-64 md:w-auto md:text-6xl md:pb-20"> Customize however you want </h2>
+        <div className=" md:flex ">
         <div className="flex flex-col items-center justify-center gap-5 pb-8 ">
           <img src={modular} alt="Modular Design Image" className=""/>
           <div className="w-56 ">
@@ -39,7 +40,7 @@ function Custom() {
           <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
           </div>
         </div>
-
+        </div>
       </section>
     </>
   );

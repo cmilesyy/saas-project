@@ -12,7 +12,8 @@ function Main() {
   return (
     <>
       <section>
-        <div className="px-10 pt-16">
+        <div className="px-10 pt-16 md:grid md:grid-cols-2 lg:px-28">
+          <div className="md:flex md:justify-center md:flex-col ">
           <h2 className="text-3xl font-semibold w-64 pb-4">
             Save time and design fast
           </h2>
@@ -20,8 +21,9 @@ function Main() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          </div>
           <div className="flex items-center justify-center">
-            <img src={home} alt="" className="" />
+            <img src={home} alt="" className="md:h-[437px]" />
           </div>
         </div>
 

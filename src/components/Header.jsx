@@ -19,10 +19,10 @@ function Header() {
     <>
       <header>
         <Banner />
-        <nav className="hidden md:flex">
-          <div className="flex items-center justify-between px-5">
+        <nav>
+          <div className=" hidden md:flex md:items-center md:justify-between md:py-5 md:px-20 lg:px-28">
             <img src={logo} alt="logo - Launch" />
-            <ul className=" md:flex gap-2 text-sm">
+            <ul className="flex items-center gap-5">
               <li>
                 {" "}
                 <a href="">What is Launch?</a>{" "}
