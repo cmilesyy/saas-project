@@ -10,10 +10,10 @@ function Faq() {
       <section className="bg-[#F2F5F9]">
         <div className="flex items-center justify-center flex-col px-5 py-20 mt-16 ">
           <div className="text-center">
-            <h2 className="pb-4 text-3xl font-semibold">
+            <h2 className="pb-4 text-3xl font-semibold md:text-6xl">
               Frequently asked questions
             </h2>
-            <p className="font-light">
+            <p className="font-light md:text-lg">
               Need help with something? Here are our most frequently asked
               questions.
             </p>
