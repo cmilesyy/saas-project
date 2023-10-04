@@ -27,27 +27,29 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="flex flex-col gap-4 md:flex-row ">
-            <div>
-              <p className="pb-2 text-xl font-semibold">
-                Subscribe to our newsletter
-              </p>
+          <div className="flex flex-col gap-4 ">
+
+            <p className="pb-2 text-xl font-semibold">
+              Subscribe to our newsletter
+            </p>
+            <div className="flex flex-col gap-4 md:flex-row">
               <input
                 type="email"
                 placeholder="Email Address"
                 required
-                className="rounded-md py-3 px-5 w-full"
+                className="rounded-md py-3 px-5 w-full ]"
               />
+
+              <button className=" bg-[#6DD1ED] rounded-md py-3 px-2 w-full md:w-1/3">
+                Send
+              </button>
+
             </div>
-            {/*required for email validation*/}
-            <button className=" bg-[#6DD1ED] rounded-md py-2 px-2 h-20">
-              Send
-            </button>
           </div>
         </div>
       </div>
 
-      <div className="py-3 mt-3 px-5">
+      <div className="py-3 mt-3 px-5 md:px-28">
         <p className="border-t pt-3 text-sm">© 2023 Launch</p>
       </div>
     </footer>
